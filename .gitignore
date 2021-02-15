@@ -28,18 +28,6 @@ yarn-error.log*
 
 # backup file
 debug.log
-/src/components
+/src/components/TodoItem-*
 /src/fontawesome-free-5.15.2-web
-App-origin.js
-App-origin.css
-App-06.01.js
-App-06.01.css
-App-07.01.js
-App-07.02.js
-App-07.02.css
-App-08.01.js
-App-08.02.js
-App-09.01.js
-App-09.02.js
-App-10.01.js
-App-10.02.js
+App-*
