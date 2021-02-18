@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import className from "classnames";
+import propTypes from "prop-types";
+
 import "./TodoItem.css";
 import checkImg from "../img/check.svg";
 import checkCompleteImg from "../img/check-complete.svg";
@@ -24,5 +26,13 @@ class TodoItem extends Component {
     );
   }
 }
+
+TodoItem.propTypes = {
+  item: propTypes.shape({
+    isComplete: propTypes.bool,
+    title: propTypes.string,
+  }),
+  onClick: propTypes.func,
+};
 
 export default TodoItem;

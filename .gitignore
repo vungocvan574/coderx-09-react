@@ -29,5 +29,4 @@ yarn-error.log*
 # backup file
 debug.log
 /src/components/TodoItem-*
-/src/fontawesome-free-5.15.2-web
 App-*

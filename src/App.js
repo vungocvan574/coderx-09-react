@@ -8,13 +8,13 @@ class App extends Component {
   constructor(){
     super();
     this.state = {
-      newItem:'',
+      newItem: "",
       todoItems: [
-        {title: "Mua bim bim", isComplete: true},
-        {title: "Đi đá bóng", isComplete: true},
-        {title: "Đi đổ xăng"},
-        {title: "Đi về ngủ"}
-      ]
+        { title: "Mua bim bim", isComplete: true },
+        { title: "Đi đá bóng", isComplete: true },
+        { title: "Đi đổ xăng", isComplete: false },
+        { title: "Đi về ngủ", isComplete: false },
+      ],
     };
 
     this.onKeyUp=this.onKeyUp.bind(this);
