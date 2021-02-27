@@ -3,6 +3,8 @@ import "./App.css"
 import TodoItem from "./components/TodoItem";
 import { Component } from "react";
 import tick from './img/tick.svg';
+import Card from './components/Card'
+import Card2 from './components/Card2'
 
 class App extends Component {
   constructor(){
@@ -88,6 +90,13 @@ class App extends Component {
           item={item}
           onClick={this.onItemClicked(item)} />
         ))}
+        <Card imageUrl="https://picsum.photos/600/450">
+          <p>Card body</p>
+        </Card>
+
+        <Card2 imageUrl="https://picsum.photos/600/450">
+          <p>Card body 2</p>
+        </Card2>
       </div>
     );
   }
